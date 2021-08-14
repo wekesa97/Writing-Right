@@ -2,11 +2,11 @@ package com.qubittechnologies.writingright;
 
 import android.content.Intent;
 import android.os.Bundle;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.MobileAds;
+//import com.google.android.gms.ads.AdListener;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.InterstitialAd;
+//import com.google.android.gms.ads.MobileAds;
 
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
@@ -28,8 +28,8 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    InterstitialAd mInterstitialAd;
-    private static final String AD_UNIT_ID = "ca-app-pub-6931554455506392/4709389364";
+    //InterstitialAd mInterstitialAd;
+    //private static final String AD_UNIT_ID = "ca-app-pub-6931554455506392/4709389364";
 
     public ScaleGestureDetector mScaleGestureDetector;
     public float mScaleFactor = 1.0f;
@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
 
         NavigationView navigationView = findViewById(R.id.nav_view);
+        /*
         MobileAds.initialize(this, "AD_UNIT_ID");
         AdView mAdView;
         mAdView = findViewById(R.id.adView);
@@ -81,7 +82,7 @@ public class MainActivity extends AppCompatActivity
                 showInterstitial();
             }
         });
-
+        */
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -136,7 +137,7 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.nav_home:
-                showInterstitial();
+                //showInterstitial();
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new HomeFragment()).commit();
                 break;
@@ -174,11 +175,13 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    /*
     public void showInterstitial() {
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         }
     }
+    */
 
     public boolean onTouchEvent(MotionEvent motionEvent) {
         mScaleGestureDetector.onTouchEvent(motionEvent);

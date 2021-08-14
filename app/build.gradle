@@ -1,4 +1,13 @@
 apply plugin: 'com.android.application'
+//apply plugin:'com.gradle.build-scan'
+
+if (hasProperty("buildScan")){
+    buildScan{
+        termsOfServiceUrl = "https://gradle.com/terms-of-service";
+        termsOfServiceAgree = "yes"
+    }
+}
+
 allprojects{
     tasks.withType(JavaCompile){
         options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
@@ -13,7 +22,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 5
-        versionName "1.5"
+        versionName "1.6"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -26,7 +35,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.google.android.gms:play-services-ads:17.2.1'
+    //implementation 'com.google.android.gms:play-services-ads:17.2.1'
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'

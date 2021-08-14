@@ -13,8 +13,8 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
 
 public class MainActivityDisplay extends AppCompatActivity {
     ImageButton btnActivity2;
