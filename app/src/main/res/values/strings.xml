@@ -1,0 +1,316 @@
+<resources>
+    <string name="app_name">Writing Right</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragment_name_apa">\n\n\n APA Style</string>
+    <string name="fragment_name_mla">\n\n\n MLA Style</string>
+    <string name="fragment_name_chicago">\n\n\n Chicago Style</string>
+    <string name="fragment_name_home">\n\n\n Home</string>
+    <string name="fragment_name_harvard">\n\n\n Harvard Style</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="basics">
+        <b><u><center>BASIC SET-UP IN MS WORD.</center>\n\n</u></b>
+        <ul>
+            <li> On the Page Layout menu select Margin then Normal.\n</li>
+            <li> Font - Times New Roman.\n</li>
+            <li>Font size -12.\n</li>
+            <li>Line Spacing -Double 2.0.\n</li>
+            <li>Margin -Normal {One inch on each side}.\n</li>
+        </ul>
+    </string>
+    <string name="abstract_basic">
+           <b><u><center> Abstract</center>\n\n</u></b>
+        In this brief section the writer summarizes the major aspects that the entire paper
+        covers in 100 to 300 words .it covers the purpose of the paper, major findings or
+        claims made in the paper and the basic design of the paper and research methods. The
+        main aim is to help the reader quickly ascertain the papers purpose.it may contain the
+        purpose, results, scope and contents of the paper or the thesis, background and conclusion.
+
+    </string>
+    <string name="title">
+    <b><u><center> Title</center>\n\n</u></b>
+        To come up with a title try to clearly explain the purpose of your topic.
+        Involve keywords and phrases that create a positive impression and avoid using abbreviations.
+
+    </string>
+    <string name="introduction">
+    <b><u><center> Introduction </center>\n\n</u></b>
+        The introduction should announce your topic and provide context and a rationale for your work .
+        It should include statements about the subject to attract reader\’s attention and a background to
+        the paper and explain why the research is important.
+    </string>
+    <string name="literature_review">
+    <b><u><center> Literature Review </center>\n\n</u></b>
+        This section includes a discussion or review of what is known
+        about the subject or what other writers have written about your topic and how that knowledge was acquired.
+    </string>
+    <string name="main_body">
+    <b><u><center> Main Body </center>\n\n</u></b>
+        In this section the author supports the thesis and builds the argument. It contains most of the citations and analysis.
+    </string>
+    <string name="conclusion">
+    <b><u><center> Conclusion </center>\n\n</u></b>
+        This section brings together the points of the main paper and underscores what it all means without sounding redundant.
+    </string>
+
+    <string name="citations">
+   <b><u><center> Citations</center>\n\n</u></b>
+        <ul>
+            <li>Refers to a reference to a published or unpublished source that was utilized to obtain information
+                from and a chance to get information about earlier research.\n</li>
+            <li>Citing sources is additionally best defence against plagiarism allegations.\n</li>
+        </ul>
+
+
+
+    </string>
+
+
+    <string name="first_apa">
+
+        <b><h1><center>APA</center></h1></b>
+
+        <b><center>First Page\n\n</center></b>
+            <b>Header\n</b>
+             <ul>
+            <li>Contains the Running Head preceded by the words RUNNING HEAD.\n</li>
+            <li>Other pages shouldn\'t have the words RUNNING HEAD in the Running head.\n</li>
+            <li>It should be aligned Right.\n</li>
+	        <li>To enforce this use the Design Menu and check Different First page.\n</li>
+            <li>Insert the Page Number at the top right of the header after Running Head. \n</li>
+             </ul>
+        <u><b><center>First Page</center></b>\n\n </u>
+             <ul>
+                <li>Write Title in the middle of the page usng Title Case\n</li>
+                 <li> Write Name,then School followed by Date of Submission on a different line.\n</li>
+             </ul>
+        <u><b><center>Second Page.</center></b>\n</u>
+            <ul>
+                 <li> Insert header without the words “Running Head”.\n</li>
+                 <li>Write title of your Essay in Title Case.\n</li>
+                 <li> First paragraph is left aligned with the first sentence starting away from the margin,\n</li>
+
+             </ul>
+</string>
+    <string name="last_apa">
+       <u><b><center>Citations\n</center> </b></u>
+    <ul>
+<li>These are put at the end of the idea paraphrased\n</li>
+<li>Direct quotes include author\'s’ name(s),publication year and page number(s).\n
+e.g(Joseph,2007,p.35).\n</li>
+<li>Make reference to author and year of publication if just paraphrasing.\n
+e.g(Joseph,2007)\n</li>
+    <li>If you have mentioned the author’s name only include year of publication.\n</li>
+    </ul>
+        <b>References to Authors\n\n</b>
+        <ul>
+    <li>When referring to two authors you can use:\n</li>
+    <li>For example According to Sheldon and Amy(2018) or  (Sheldon and Amy,2018).\n</li>
+    <li>When referring to three to five authors you can use.\n</li>
+    <li>For example According to Walter,Howard and Leonard(2011) or\n
+	(Walter,Howard,  and ,Leonard,2011).\n
+(put comma before &amp; after  &amp;)\n</li>
+    <li>When referring to six or more Authors use\n</li>
+
+    <li>For example According to Amy et al(2016) or (James et al,2016).\n</li>
+</ul>
+    <u><b><center>References\n</center></b></u>
+    <ul>
+        <li>Should be labelled “References” and be in a new page.\n</li>
+        <li>Should be arranged in the alphabetical order.\n</li>
+    </ul>
+        <u><b>Sample apa\n\n</b></u>
+<li>https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/apa_sample_paper.html</li>
+
+
+
+
+    </string>
+    <string name="first_chicago">
+        <u><b><center>CHICAGO\n</center></b></u>
+       <B>First Page/header\n</B>
+        <ul>
+            <li>The title should be centered below the upper one third of the paper in CAPS.\n</li>
+
+        </ul>
+
+<b>Title Page\n</b>
+<b>First Page\n</b>
+        <ul>
+            <li>Page numbers begin in the header of the first page of text aligned right.\n</li>
+            <li>The text of the paper begins with a new line indented 0.5.\n</li>
+            <li>This page has no title.\n</li>
+        </ul>
+        </string>
+    <string name="last_chicago">
+        <u>Citations\n</u>
+        <ul>
+<li>Place a superscript after a quote or paraphrase.\n</li>
+<li>From the reference menu select insert footnote in MS word.\n</li>
+<li>Insert a numeric endnote marker to let reader be  aware you are going to cite a source.\n</li>
+<li>Indicate the source in an endnote at the end of your paper.\n</li>
+<li>It should follow the format\n
+{ Endnote number, Authors first and last name,Title of the resource in italics (City of Publication,publisher,Year of publication),Page Number }\n\n</li>
+</ul>
+<u>References\n\n</u>
+        <li>The authors names are given as they appear on the publication you have used.\n</li>
+<li>Use consistent capitalisation.\n</li>
+        <li>Titles and subtitles of books are given maximal capitalisation.\n</li>
+    <li>Capitalize Titles and subtitles of books.\n</li>
+<li>All words other than prepositions, conjunctions and articles are capitalised\n.</li>
+<li>Italicise book titles when typing or underlined when handwritten\n</li>.
+
+        <u><b>Sample Chicago\n\n</b></u>
+<li>https://owl.purdue.edu/owl/research_and_citation/chicago_manual_17th_edition/cmos_formatting_and_style_guide/cmos_nb_sample_paper.html</li>
+
+
+
+    </string>
+    <string name="first_mla">
+    <u><b><center> MLA \n</center></b></u>
+        <B><center>First page &amp; Header\n</center></B>
+        <ul>
+<li>On the top right corner write your last name .\n</li>
+	<li>Using insert tab select Blank header then right align your name in MS word.\n</li>
+<li>Then insert page number after last name\n</li>
+	<li>In Insert tab select page number\n</li>
+        </ul>
+        <u>First page\n\n</u>
+<ul>
+
+    <li>On the first page write\n</li>
+    <li><center>Your name\n</center></li>
+    <li><center>Teacher/Professors name\n</center></li>
+    <li><center>Course Name\n</center></li>
+    <li><center>Date of submission\n</center></li>
+    <li>Each on its line ,then align the information left.\n</li>
+</ul>
+        <u>Second Page.\n\n</u>
+
+    <ul>
+        <li>Write title of your essay in Title case.\n</li>
+        <li>First paragraph is left aligned with the first sentence starting away from the margin.\n</li>
+        <li>Use tab key to implement this.\n</li>
+    </ul>
+</string>
+    <string name="last_mla">
+       <u><B><center>Citations\n</center></B></u>
+        <ul>
+<li>In MLA  in-text citations contain information about  the author of the page number with no comma between them,they(citations)are put at the end of the idea paraphrased.\n</li>
+<li>Example : (Charles 1991).\n\n</li>
+<li>If the authors name is mentioned in text while paraphrasing the idea only the page number is included into parenthesis.\n</li>
+<li>Citations are separated by a semicolon when citing multiple sources in the same reference parenthesis.\n</li>
+            <li>Example (John 65;Smith 71).\n</li>
+        </ul>
+
+        <B><center><u>References to Author(s).\n\n</u></center></B>
+        <ul>
+            <li>When citing two authors use the format\n
+            “    According to John and Smith,...(113)   ”  in the text of the paper or “ (John and Smith 113) “in the parenthesis.\n</li>
+            <li>When citing three or more authors use the format\n</li>
+            <li>“   According to John et al.,...(113)   “ in the text of the paper or (John et al.113)  “ in\n</li>
+            <li>The parenthesis.\n\n</li>
+        </ul>
+        <B><center>Works Cited\n\n</center></B>
+    <ul>
+
+        <li>This section should appear at the end of the paper and begin on a new page separate from the other text.\n</li>
+        <li>It should be labelled “Works Cited ” in Title case.\n</li>
+        <li>Sources should be arranged in alphabetical order.\n</li>
+</ul>
+        <u><b>Sample MLA\n\n</b></u>
+<li>https://owl.purdue.edu/owl/research_and_citation/mla_style/mla_formatting_and_style_guide/documents/20180702110400_747-2.pdf
+</li>
+
+
+
+    </string>
+    <string name="first_harvard">
+    <u><b><center>HARVARD\n</center> </b></u>
+    <u><center>First Page &amp; Header\n</center></u>
+    <B><center>Header\n</center></B>
+            <ul>
+<li>This part contains a short description of the title that should be present on each page and the page number. The information in the header is aligned right.\n</li>
+<li>First Page\n</li>
+<li><center>Halfway down the page is the title of the paper in CAPS.\n</center></li>
+<li><center>Three lines down the title write the students name.\n</center></li>
+<li><center>Four lines down write the name of the course.\n</center></li>
+<li><center>Next  line is the name of professor/Teacher.\n</center></li>
+<li><center>Next line is name of the institution(University).\n</center></li>
+<li><center>Next line is name of state or city where the university is located.\n</center></li>
+<li><center>Then date.\n</center></li>
+        </ul>
+
+
+
+    </string>
+    <string name="last_harvard">
+        <ul>
+        <li>Title in the next page should start the page and should be centered,not in CAPS not bolded,not underlined
+            or italicized and written in Title Case.\n</li>
+</ul>
+<u><center>Citation.\n\n</center></u>
+
+            <ul>
+<li>Authors last name and the year of publication for the source should be stated in the text.\n</li>
+<li>Unlike APA there is no comma between authors name and the year of publication in the in-text citation  eg (Robert 2011).\n</li>
+<li>In-text citations are put just after the author or the authors work is mentioned: \n</li>
+<li>Example: ... a recent study (Cooper 2013) has described ....\n</li>
+
+<li>If while paraphrasing the idea the author’s name is mentioned in the text, only the year of publication
+            is included into parenthesis which directly follows. \n</li>
+<li>Example: According to Smith (2009),\n</li>
+            </ul>
+            <ul>
+
+        <u><center>Reference List \n\n</center></u>
+        <li> The list of sources used in the paper should appear at the end of the paper. \n</li>
+        <li> It should begin on a new page separate from the text of the essay. \n</li>
+        <li> It may be labelled ‘References’ or ‘Reference List’.\n</li>
+
+        <li> The words ‘References’ or ‘Reference List’ should be centered at the top of the page (NOT bolded, not underlined, not italicized, not in quotation marks).\n</li>
+        <li> If you name the list of sources ‘Reference List’, please, mind that both words begin with a capital letter.\n</li>
+        <li> All lines after the first line of each entry in the list should be indented one-half inch from the left margin to maintain the hanging indentation.\n</li>
+        <li> Double-space all entries. \n</li>
+        <li> Authors names are inverted (last name first). Do not put periods with the authors’ initials.\n</li>
+        <li> The titles of books and periodicals are italicized in the Reference List as a rule. \n</li>
+        <li> The articles or the chapters are not italicized. Use quotation marks for them. \n</li>
+       <li> Sentence case is used for all the sources except the entire websites and journal titles.\n</li>
+
+
+        </ul>
+         <ul>
+
+    </ul>
+
+
+    </string>
+    <string name="citation_process">
+
+        <u><b>Citing  a source and Automatically formatting Bibliographies\n\n</b></u>
+        <ul>
+       <li>On the References tab,on Citations and Bibliography group,select the style you want to use for the citation.\n</li>
+        <li>Click at the end of the sentence that you want to cite.\n</li>
+       <li>Click Insert Citation and select Add New Source.\n</li>
+        <li>In the Create Source box ,type in the citation details and then click OK.\n</li>
+        <li>Next time you quote this reference just click Insert Citation and choose the citation you want to use.\n</li>
+        <u>Create a Bibliography from your sources\n\n</u>
+        <li>Click at the end of the document where you want to insert a bibliography.\n</li>
+        <li>On the References tab in the citations &amp; Bibliography group,click Bibliogpaphy.\n</li>
+        </ul>
+                <u><b>Citation In Word\n\n</b></u>
+<li>https://support.microsoft.com/en-us/office/create-a-bibliography-citations-and-references</li>
+    </string>
+
+
+</resources>

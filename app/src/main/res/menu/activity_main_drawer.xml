@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:textSize="30sp" >
+        <item
+            android:id="@+id/nav_home"
+            android:fontFamily="arial"
+            android:textSize="30sp"
+            android:icon="@drawable/ic_local_library_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_apa"
+            android:fontFamily="arial"
+            android:textSize="30sp"
+            android:icon="@drawable/ic_local_library_black_24dp"
+            android:title="Apa" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:fontFamily="arial"
+            android:textSize="30sp"
+            android:icon="@drawable/ic_local_library_black_24dp"
+            android:title="Mla" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:fontFamily="arial"
+            android:textSize="30sp"
+            android:icon="@drawable/ic_local_library_black_24dp"
+            android:title="Chicago" />
+        <item
+            android:id="@+id/nav_tools"
+            android:textSize="30sp"
+            android:fontFamily="arial"
+            android:icon="@drawable/ic_local_library_black_24dp"
+            android:title="Harvard" />
+        <item
+            android:id="@+id/nav_send"
+            android:textSize="30sp"
+            android:fontFamily="arial"
+            android:icon="@drawable/ic_local_library_black_24dp"
+            android:title="Citing Tool" />
+        <item
+            android:id="@+id/nav_share"
+            android:fontFamily="arial"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_share" />
+    </group>
+
+    <item android:title="Share"
+        android:fontFamily="arial">
+        <menu>
+
+            <item
+                android:id="@+id/nav_sendd"
+                android:fontFamily="arial"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>

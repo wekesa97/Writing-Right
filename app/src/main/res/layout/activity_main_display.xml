@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    android:textColor="#000000"
+    tools:context=".MainActivityDisplay">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#ffffff"
+                android:fontFamily="Arial"
+                android:lineSpacingMultiplier="1.5"
+                android:text="In text citation in APA"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                 />
+
+            <TextView
+                android:id="@+id/idTxtActivity1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="#ffffff"
+                android:fontFamily="Arial"
+                android:lineSpacingMultiplier="1.5"
+                android:text="in text citation in APA"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#ffffff"
+                android:fontFamily="Arial"
+                android:lineSpacingMultiplier="1.5"
+                android:text="Bibliography in APA"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/idTxtActivity2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="#ffffff"
+                android:fontFamily="Arial"
+                android:lineSpacingMultiplier="1.5"
+                android:text="Bibliograohy in APA"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#ffffff"
+                android:fontFamily="Arial"
+                android:lineSpacingMultiplier="1.5"
+                android:text="In text citation in Chicago"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/idTxtActivity3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="#ffffff"
+                android:fontFamily="Arial"
+                android:lineSpacingMultiplier="1.5"
+                android:text="in text citation in Chicago"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:background="#ffffff"
+                android:fontFamily="Arial"
+                android:lineSpacingMultiplier="1.5"
+                android:text="Bibliography in Chicago"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/idTxtActivity4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="#ffffff"
+                android:fontFamily="Arial"
+                android:lineSpacingMultiplier="1.5"
+                android:text="Bibliography in Chicago"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+
+            <ImageButton
+                android:id="@+id/idbtnActivity2"
+                android:layout_width="133dp"
+                android:layout_height="54dp"
+                android:layout_below="@+id/idTxtActivity2"
+                android:onClick="btnClickAct2"
+                android:src="@android:drawable/ic_menu_edit"
+
+                android:text="Go to Activity 1"
+                android:textSize="25sp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
+    <!---com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewdisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6931554455506392/4709389364">
+    </com.google.android.gms.ads.AdView>
+    ---!>
+
+
+
+

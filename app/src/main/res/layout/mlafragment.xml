@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:fontFamily="arial"
+                android:text="@string/fragment_name_mla"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:background="#bfbfbf"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:fontFamily="arial"
+                android:textColor="#000000"
+                android:autoLink="web"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingLeft="13dp"
+                android:text="@string/first_mla"
+                android:textSize="17sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First page of MLA"
+                android:autoLink="web"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="arial"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:textStyle="bold|italic"
+                />
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/firstpagemla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/first_page_mla"
+                android:tooltipText="The First page of MLA" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Citing authors that have already been mentioned in MLA"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="arial"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:textStyle="bold|italic"
+                />
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/mlamentioned"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mla_already_mentioned" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Citing one author in MLA"
+                android:autoLink="web"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="arial"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:textStyle="bold|italic"
+                />
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/mlaoneperson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mla_cite_one_person"
+                android:tooltipText="In MLA when citing one author" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:fontFamily="arial"
+                android:textColor="#000000"
+                android:autoLink="web"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingLeft="13dp"
+                android:text="@string/last_mla"
+                android:textSize="17sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Work Cited page of MLA"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="arial"
+                android:textColor="#000000"
+                android:autoLink="web"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                />
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/mla_refer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mla_refrences"
+                android:tooltipText="" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
